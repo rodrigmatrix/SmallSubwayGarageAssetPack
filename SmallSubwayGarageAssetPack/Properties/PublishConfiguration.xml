@@ -1,0 +1,48 @@
+﻿<Publish>
+	<!--Id must be set in order to update existed mod. it is not required for publishing mod for the first time-->
+	<ModId Value="86976" />
+	<!--Name of the mod to display to players-->
+	<DisplayName Value="Small Subway Garage and Train Garage Asset" />
+	<!--Short description of the mod-->
+	<ShortDescription Value="A small subway and train depot garage that can spawn up to 6 subway trains." />
+	<!--Long description of the mod. Single line or multi line. Supports minimal markdown subset-->
+	<!--LongDescription Value="This is a long description" /-->
+	<LongDescription>
+## Small Subway Garage Asset
+Tired of just one huge depot for subways and trains? This is a small depot garage that can spawn up to 6 subway trains. It can be used perfectly as a small depot in the middle of your subway or train line and avoid traffic with only one depot.
+
+## How to use it:
+
+1 - For subway, go to the subway tab and for train go to the train tab.
+
+2 - Place the asset on a road and connect the track at the end to your tracks.
+  </LongDescription>
+	<!--Thumbnail-->
+  <Thumbnail Value="ParadoxRes/Thumbnail.png" />
+  <!--Screenshot, can be set multiple times-->
+  <Screenshot Value="ParadoxRes/Screenshot1.png" />
+  <Screenshot Value="ParadoxRes/Screenshot2.png" />
+  <Screenshot Value="ParadoxRes/Screenshot3.png" />
+  <Screenshot Value="ParadoxRes/Screenshot4.png" />
+  <Screenshot Value="ParadoxRes/Screenshot5.png" />
+	<!--Tag, can be set multiple times-->
+	<Tag Value="Code Mod" />
+	<!--Link to the forum post where the mod can be discussed-->
+	<ForumLink Value="https://forum.paradoxplaza.com/forum/threads/small-subway-garage-asset.1698399/" />
+	<!--Version of the mod-->
+	<ModVersion Value="1.0.3" />
+	<!--Recommended version of the base game to use the mod-->
+	<GameVersion Value="1.1.*" />
+  <Dependency Id="78903" />
+  <Dependency Id="75426" />
+  <!--Change log for new version. Single line or multi line. Supports minimal markdown subset-->
+  <ChangeLog>
+# v1.0.3
+- Added Small Train Garage Depot Asset
+- Updated icons
+  </ChangeLog>
+	<!--ChangeLog>
+	</ChangeLog-->
+	<!--External link. supported types are discord, github, youtube, twitch, x, paypal, patreon, buymeacoffee, kofi, crowdin, gitlab-->
+  <ExternalLink Type="github" Url="https://github.com/rodrigmatrix/SmallSubwayGarageAssetPack" />
+</Publish>
