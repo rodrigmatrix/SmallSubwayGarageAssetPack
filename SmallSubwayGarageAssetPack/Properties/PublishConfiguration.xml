@@ -30,15 +30,15 @@ Tired of just one huge depot for subways and trains? This is a small depot garag
 	<!--Link to the forum post where the mod can be discussed-->
 	<ForumLink Value="https://forum.paradoxplaza.com/forum/threads/small-subway-garage-asset.1698399/" />
 	<!--Version of the mod-->
-	<ModVersion Value="1.0.5" />
+	<ModVersion Value="1.1" />
 	<!--Recommended version of the base game to use the mod-->
     <GameVersion Value="1.*" />
   <Dependency Id="78903" />
   <Dependency Id="75426" />
   <!--Change log for new version. Single line or multi line. Supports minimal markdown subset-->
   <ChangeLog>
-# v1.0.5
-- Updated to new game version
+# v1.1
+- Added service parking support. Vehicles will now be displayed on tracks outside the depot.
   </ChangeLog>
 	<!--ChangeLog>
 	</ChangeLog-->
